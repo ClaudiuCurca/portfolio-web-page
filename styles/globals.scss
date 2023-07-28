@@ -131,11 +131,26 @@ main {
 .project-2,
 .contact {
   height: 100vh;
+
   color: white;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about,
+.contact {
+  @media screen and (max-height: $bp-medium) {
+    height: 80rem;
+  }
+}
+
+.project-1,
+.project-2 {
+  @media screen and (max-height: $bp-medium) {
+    height: 105rem;
+  }
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
