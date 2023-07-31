@@ -14,9 +14,7 @@ const ContactSection = () => {
             alt="linkedIn"
             className="contact__card--linkedin-image"
           />{" "}
-          <a href="https://www.linkedin.com/in/claudiu-curca2000/">
-            Claudiu Curcă
-          </a>
+          <a href="https://www.linkedin.com/in/claudiucurca/">Claudiu Curcă</a>
         </p>
         <p className="contact__card--github">
           <Image
