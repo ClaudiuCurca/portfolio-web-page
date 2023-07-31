@@ -85,6 +85,8 @@ main {
   align-items: center;
   justify-content: flex-end;
 
+  animation: AppearFromAbove 1.5s;
+
   @media screen and (max-width: $bp-small) {
     justify-content: center;
   }
@@ -161,6 +163,8 @@ main {
   flex-direction: column;
 
   position: relative;
+
+  animation: AppearSlowOnScreen 1.5s;
 
   &__title {
     margin-bottom: 5rem;
@@ -534,7 +538,7 @@ main {
 }
 
 .appear-slow {
-  animation: AppearSlowOnScreen 1s;
+  animation: AppearSlowOnScreen 1.7s;
 }
 
 .mb-1 {

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Footer from "./Footer";
 
 const ContactSection = () => {
   return (
@@ -18,6 +17,16 @@ const ContactSection = () => {
           <a href="https://www.linkedin.com/in/claudiu-curca2000/">
             Claudiu Curcă
           </a>
+        </p>
+        <p className="contact__card--github">
+          <Image
+            src={"/github.svg"}
+            height={50}
+            width={50}
+            alt="github"
+            className="contact__card--github-image"
+          />
+          <a href="https://github.com/ClaudiuCurca">Claudiu Curcă</a>
         </p>
         <p className="contact__card--gmail">
           <Image
